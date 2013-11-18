@@ -1,0 +1,36 @@
+body {
+	background: url(../images/heart.jpg) #700a0a top center no-repeat ;
+	color: #ffffff;
+	line-height: 1.7;
+}
+
+nav {
+	li {
+		display: inline;
+		padding: 5px;
+	}
+	a {
+		color: white;
+		&:active {
+			color: #fff
+		}
+		&:visited{
+			color: #fff;
+		}
+	}
+}
+
+a {
+	color: #A8FF86;
+	&:active {
+		color: #AEFFBE;
+	}
+	&:visited{
+		color: #4FB864;
+	}
+}
+
+.container {
+	margin: 0px auto;
+	width: 760px;
+}
